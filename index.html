@@ -4,23 +4,22 @@
 <title>Zahscha Gonzalez Portfolio </title>
 <link href="css/general.css" rel="stylesheet">
 <script src="//use.edgefonts.net/alegreya-sc;source-sans-pro:n3,n4.js"></script>
-
-
+<link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
 </head>
 <body>
-<div id="container">
+<div id="container" id="frame">
 	<div id="logo">
-		<a href="#top"></a>
+		<a href="#top"><img src="images/logo.png" alt="ZG portfolio logo"/></a>
 	</div>
 	<nav>
 	<ul>
-		<li><a href="#top">Home</a></li>
-		<li><a href="#myWork">My Work</a></li>
-		<li><a href="#aboutMe">About Me</a></li>
-		<li><a href="#hireMe">Hire Me</a></li>
+		<li class="top"><a href="#top">Home</a></li>
+		<li class="my-work"><a href="#myWork">My Work</a></li>
+		<li class="about-me"><a href="#aboutMe">About Me</a></li>
+		<li class="hire-me"><a href="#hireMe">Hire Me</a></li>
 	</ul>
 	</nav>
-	<div id="main-info">
+	<div id="main-info" class="slide1">
 		<h1>Hi, My name <strong style="color:#5d0085;">Zahscha Gonzalez</strong>, web/graphic designer and passionate developer.</h1>
 		<p>
 			Coming from the enchanted island of Puerto Rico, I relocated to Hanover, MD to pursue my career. I love creating functional, innovative solutions to design and development problems. Creating user-friendly designs that WOW the human eye.
@@ -28,7 +27,7 @@
 		<h1 id="myWork-head"><img src="images/workban.png" alt="My work header"/></h1>
 	</div>
 	<!-- End of main-info DIV-->
-	<div id="myWork">
+	<div id="myWork" class="slide2">
 		<div id="myWork-nav">
 			<ul>
 				<li><a href=".all">All</a></li>
@@ -75,6 +74,9 @@
 <!-- End of container DIV-->
 <!--JQUERY CND HERE-->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="js/sly.min.js"></script><!--Sly jQuery Plug in-->
+<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script><!--Fancy box Plug in-->
 <script type="text/javascript" src="js/site.js"></script>
 
 </body>
